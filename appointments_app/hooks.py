@@ -147,7 +147,11 @@ app_license = "agpl-3.0"
 
 # Scheduled Tasks
 # ---------------
-
+scheduler_events = {
+	"daily": [
+		"appointments_app.appointments_app.doctype.appointment_queue.appointment_queue.create_queues_for_today"
+	]
+}
 # scheduler_events = {
 # 	"all": [
 # 		"appointments_app.tasks.all"

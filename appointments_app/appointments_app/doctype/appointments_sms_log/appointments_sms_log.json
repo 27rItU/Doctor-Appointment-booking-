@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-08 02:04:50.405839",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "twilio_sid",
+  "body",
+  "from_",
+  "to_"
+ ],
+ "fields": [
+  {
+   "fieldname": "twilio_sid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Twilio SID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "body",
+   "fieldtype": "Small Text",
+   "label": "Body"
+  },
+  {
+   "fieldname": "from_",
+   "fieldtype": "Data",
+   "label": "From"
+  },
+  {
+   "fieldname": "to_",
+   "fieldtype": "Data",
+   "label": "To"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-08 02:12:30.540615",
+ "modified_by": "Administrator",
+ "module": "Appointments App",
+ "name": "Appointments SMS Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
